@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .find_more {
+        width: 100%;
+        padding: 30px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: blue;
+        color: #fff;
+        text-align: center;
+      }
+      .find_more p {
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+      }
+      .find_more a {
+        padding: 8px 14px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #242424;
+        margin-top: 20px;
+      }
+
+      .our_project {
+        width: 100%;
+        position: relative;
+        padding: 20px 0px;
+      }
+      .our_project_title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .our_project_title p {
+        width: 80%;
+        margin: 10px auto;
+      }
+      .project_img_box {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: hidden;
+      }
+      .project_img {
+        width: 23%;
+        height: 180px;
+        position: relative;
+        margin: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .project_img a {
+        position: absolute;
+        bottom: 0px;
+        right: 25px;
+        text-decoration: none;
+        padding: 6px 12px;
+        color: #fff;
+        background-color: #003ef4;
+        border-radius: 5px;
+        display: none;
+        transition: all 1s;
+      }
+      .project_img:hover a {
+        display: block;
+        bottom: 25px;
+      }
+      @media screen and (max-width: 1250px) {
+        .project_img {
+          width: 33.33%;
+        }
+      }
+      @media screen and (max-width: 750px) {
+        .project_img {
+          width: 45.33%;
+        }
+      }
+      @media screen and (max-width: 536px) {
+        .project_img {
+          width: 99.33%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="find_more">
+      <h2>Find out more about what we do</h2>
+      <p>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English. Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since. Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since.
+      </p>
+      <a href="">Learn Method</a>
+    </div>
+
+    <div class="our_project">
+      <div class="our_project_title">
+        <h2>Our Projects</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here'. Lorem Ipsum
+          has been the industry's standard dummy text ever since.
+        </p>
+      </div>
+
+      <div class="project_img_box">
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/1200px-Hopetoun_falls.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://cdn.wallpapersafari.com/16/34/ZSeXDC.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://cdn.wallpapersafari.com/16/34/ZSeXDC.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+
+        <div
+          class="project_img"
+          style="
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/1200px-Hopetoun_falls.jpg');
+          "
+        >
+          <a href="">See Live</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
